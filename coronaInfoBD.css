@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 76, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 20px 20px;
+}
+.logo h1{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.listItem{
+    margin-right: 25px;
+}
+.listItem ul{
+    display: flex;
+}
+.listItem ul li{
+    list-style: none;
+    margin: 23px 20px;
+}
+.listItem ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.listItem ul li a:active{
+    color: orangered;
+}
+.header{
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.firstPart{
+    margin: 10px 130px;
+    display: flex;
+}
+.case, .death, .recovery{
+    margin: 5px 10px;
+}
+.case{
+    display: flex;
+    border: 2px solid gainsboro;
+    width: 350px;
+    height: 150px;
+    align-items: center;
+    border-radius: 20%;
+    text-align: center;
+    
+}
+.case_data{
+    margin: 10px 12px;
+}
+.case_data h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: rgb(0, 162, 255);
+}
+.case_data p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: black(0, 162, 255);
+}
+.imag{
+    margin: 10px 10px;
+}
+.imag img{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+.death{
+    display: flex;
+    border: 2px solid gainsboro;
+    width: 350px;
+    height: 150px;
+    align-items: center;
+    border-radius: 20%;
+}
+.death_data{
+    margin: 10px 12px;
+}
+.death_data h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: red;
+}
+.death_data p{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: black;
+}
+.imag2{
+    margin: 10px 10px;
+}
+.imag2 img{
+    width: 90px ;
+    height: 90px;
+    text-align: center;
+}
+.recovery{
+    display: flex;
+    border: 2px solid gainsboro;
+    width: 350px;
+    height: 150px;
+    align-items: center;
+    border-radius: 20%;
+}
+.recovery_data{
+    margin: 10px 12px;
+    
+}
+.recovary_data h2{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: yellowgreen;
+}
+.recovary_data p{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+.imag3{
+    margin: 10px 10px;
+}
+.imag3 img{
+    width: 90px ;
+    height: 90px;
+    text-align: center;
+}
+.middleHeader{
+    margin-top: 50px;
+
+}
+.middleHeader h1{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.lastPart{
+    margin: 30px 130px;
+    display: flex;
+}
+.bangladesh_case_data{
+    border: 2px solid gainsboro;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    border-radius: 20%;
+}
+.bangladesh_case_data h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(118, 52, 224);
+    position: absolute;
+    top: 30px;
+    left: 75px;
+    font-size: 40px;
+}
+.bangladesh_case_data p{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+.bangladesh_positive_data{
+    border: 2px solid gainsboro;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    border-radius: 20%;
+}
+.bangladesh_positive_data h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(0, 76, 255);
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    font-size: 40px;
+}
+.bangladesh_positive_data p{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.bangladesh_death_data{
+    border: 2px solid gainsboro;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    border-radius: 20%;
+}
+.bangladesh_death_data h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: red;
+    position: absolute;
+    top: 30px;
+    left: 92px;
+    font-size: 40px;
+}
+.bangladesh_death_data p{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+.bangladesh_recovary_data{
+    border: 2px solid gainsboro;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    border-radius: 20%;
+}
+.bangladesh_recovary_data h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: yellowgreen;
+    position: absolute;
+    top: 30px;
+    left: 82px;
+    font-size: 40px;
+}
+.bangladesh_recovary_data p{
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 92px;
+}
+.bangladesh_case_data, .bangladesh_death_data, .bangladesh_positive_data, .bangladesh_recovary_data{
+    margin: 5px 10px;
+}
